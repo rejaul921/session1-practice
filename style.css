@@ -1,2 +1,65 @@
 *{margin: 0;
 padding: 0;}
+
+.manu-container{
+    background-color: rgb(80, 75, 75);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.manus{
+    display: flex;
+}
+.manus-item{
+    margin-right: 20px;
+    padding-right: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.manus-item:hover{
+    color: rgb(153, 153, 247);
+}
+.logo-photo{
+    width: 120px;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,rgb(8, 8, 8),#640505);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(202, 10, 10);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: blueviolet;
+}
